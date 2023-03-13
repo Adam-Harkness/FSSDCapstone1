@@ -1,0 +1,1 @@
+Dedicated to Bruce Lee and the study of Jeet Kune Do.
