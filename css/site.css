@@ -1,0 +1,29 @@
+body {
+    background-image: url(../Images/BruceLee.jpg);
+    background-size: 100%;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+main {
+    padding-top: 90px;
+    color: gold;
+}
+
+main article {
+    background-color: rgba(3, 3, 3, 0.4);
+}
+
+.mainDivider {
+    height: 20px;
+}
+
+footer {
+    color: gold;
+    font-size: .8rem;
+    text-align: center;
+}
+
+header {
+    text-align: right;
+}
