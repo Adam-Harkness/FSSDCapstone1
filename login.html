@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="nav navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">Products</a>
@@ -40,7 +40,7 @@
                             <a class="nav-link" href="register.html">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link active" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -50,42 +50,30 @@
     </header>
 
 
-    <main class="container" role="main">
-        <div>
-            <div class="row">
+    <main class="container text-center" role="main">
+        <div class="container login-form-area align-items-center">
+            <fieldset class="site-content-bg-dark-contrast">
+                <legend>Login information:</legend>
 
-                <div class="main-divider"></div>
+                <label for="login-id">Login ID:</label>
+                <br>
+                <input id="login-id" type="email" pattern="[^ @]*@[^ @]" placeholder="name@domain" required>
 
-                <article class="container text-center">
-                    <h1>The Philosophy of Water</h1>
-                    <p>
-                        <q>When nothing within you stays rigid, outtward things will disclose themselves. Moving, be like water. Still, be like a mirror. Respond like an echo.</q>
-                        <p>
-                            <cite>Bruce Lee</cite>
-                        </p>
-                    </p>
-                </article>
+                <br>
 
-                <div class="main-divider"></div>
+                <label for="login-pwd">Password:</label>
+                <br>
+                <input id="login-pwd" type="text" placeholder="Enter your password" required>
 
-                <article class="container text-center">
-                    <h2>On Zen</h2>
-                    <p>
-                        <q>Empty your cup; become devoid to gain totality.</q>
-                        <p>
-                            <cite>Bruce Lee</cite>
-                        </p>
-                    </p>
-                </article>
+                <br>
 
-                <div class="main-divider"></div>
+                <button class="btn btn-outline-light" type="submit">Submit</button>
 
-                <article class="container text-center">
-                    <h2>Jeet Kune Do</h2>
-                    <p>Bruce Lee's original philosophy and martial arts foundational training. His teachings became the basis for all mixed marital arts which came after.</p>
-                    <p>Visit our <a href="products.html">products page</a> to obtain a copy of his groundbreaking work as well as related training equipment. Let this be your basis to experience health, wellness and the basis of self defense.</p>
-                </article>
-            </div>
+                <br>
+
+                <p>Don't have an account with us yet? <a href="register.html">Click here</a> to register now!</p>
+            </fieldset>
+        </div>
     </main>
 
     <footer>

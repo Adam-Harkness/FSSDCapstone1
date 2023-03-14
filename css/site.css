@@ -1,12 +1,12 @@
 body {
     background-image: url(../Images/BruceLee.jpg);
     background-size: 100%;
-    background-color: black;
     background-attachment: fixed;
 }
 
 main {
     padding-top: 90px;
+    padding-bottom: 90px;
     color: gold;
 }
 
@@ -14,7 +14,21 @@ main article {
     background-color: rgba(3, 3, 3, 0.4);
 }
 
-.mainDivider {
+.site-content-bg-dark-contrast {
+    background-color: rgba(3, 3, 3, 0.4);
+}
+
+main a {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+main a:visited {
+    color: gold;
+    font-weight: bold;
+}
+
+.main-divider {
     height: 20px;
 }
 
@@ -24,6 +38,7 @@ footer {
     text-align: center;
 }
 
-header {
-    text-align: right;
+.navbar-legend {
+    color: gold;
+    font-size: 1.5em;
 }
