@@ -37,10 +37,10 @@
                             <a class="nav-link" href="contacts.html">Contacts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Register</a>
+                            <a class="nav-link active" href="register.html">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="login.html">Login</a>
+                            <a class="nav-link" href="login.html">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -51,19 +51,47 @@
 
     <main class="container text-center" role="main">
         <div class="container form-area align-items-center">
-            <fieldset class="site-content-bg-dark-contrast">
-                <legend>Login information:</legend>
+            <fieldset class="site-content-bg-dark-contrast" style="align-content: center;">
+                <legend>Register for your account:</legend>
 
-                <label for="login-id">Login ID:</label>
+                <p class="required-fields-note">Required fields noted with *</p>
+
+                <label for="login-id">Login ID (Your email address)<i class="required-fields-note">*</i></label>
                 <input id="login-id" type="email" pattern="[^ @]*@[^ @]" placeholder="name@domain" required>
 
-                <label for="login-pwd">Password:</label>
-                <input id="login-pwd" type="text" placeholder="Enter your password" required>
+                <label for="login-pwd">Password<i class="required-fields-note">*</i></label>
+                <input id="login-pwd" type="password" placeholder="Enter your password" required>
+
+                <label for="register-name-first">First name<i class="required-fields-note">*</i></label>
+                <input id="register-name-first" type="text" placeholder="Bruce" required>
+
+                <label for="register-name-last">Last Name<i class="required-fields-note">*</i></label>
+                <input id="register-name-last" type="text" placeholder="Lee" required>
+
+                <label for="register-age">Age<i class="required-fields-note">*</i></label>
+                <input id="register-age" type="number" min="1" required>
+
+                <!--
+                <label for="register-address-line1">Street Address</label>
+                <input id="register-address-line1" type="text" placeholder="Your street">
+
+                <label for="register-address-line2">Apartment or Unit #</label>
+                <input id="register-address-line1" type="text" placeholder="">
+
+                <label for="register-address-city">City</label>
+                <input id="register-address-city" type="text" placeholder="Your city">
+
+                <label for="register-address-state">State</label>
+                <select id="register-address-state" placeholder="Enter your password">
+                    <option>AZ</option>
+                    <option>AR</option>
+                    <option>WA</option>
+                </select>
+                -->
 
                 <br>
-                <button class="btn btn-outline-light" type="submit">Submit</button>
+                <button class="btn btn-outline-light btn-block" type="submit">Submit</button>
 
-                <p>Don't have an account with us yet? <a href="register.html">Click here</a> to register now!</p>
             </fieldset>
         </div>
     </main>
@@ -78,7 +106,6 @@
             </p>
         </div>
     </footer>
-
 
 </body>
 

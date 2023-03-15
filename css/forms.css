@@ -1,0 +1,35 @@
+fieldset {
+    background-color: rgba(3, 3, 3, 0.4);
+    padding-top: 1rem;
+}
+
+fieldset legend {
+    margin-bottom: 1rem;
+}
+
+fieldset label {
+    display: block;
+}
+
+fieldset input {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+fieldset button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+fieldset>p {
+    margin-top: 2rem;
+}
+
+.form-area {
+    margin-top: 1.5rem;
+}
+
+.required-fields-note {
+    color: red;
+    font-size: .9rem;
+}
