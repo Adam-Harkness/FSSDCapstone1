@@ -1,0 +1,25 @@
+.product-row {
+    padding: 1rem;
+}
+
+div.product-container {
+    padding-top: 10px;
+}
+
+div.product-container img {
+    overflow: hidden;
+}
+
+.product-image {
+    max-width: 300px;
+    max-height: 100%;
+}
+
+.product-image-container {
+    height: 450px;
+    width: 300px;
+}
+
+.product-purchase-amount-input {
+    width: 50px;
+}
