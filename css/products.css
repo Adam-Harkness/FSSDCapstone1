@@ -4,6 +4,7 @@
 
 div.product-container {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 div.product-container img {
@@ -16,7 +17,7 @@ div.product-container img {
 }
 
 .product-image-container {
-    height: 450px;
+    height: 400px;
     width: 300px;
 }
 

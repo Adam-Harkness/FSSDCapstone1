@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 body {
+    font-family: 'Noto Sans', sans-serif;
     background-image: url(../Images/BruceLee.jpg);
     background-size: 100%;
     background-attachment: fixed;
