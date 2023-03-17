@@ -22,5 +22,9 @@ div.product-container img {
 }
 
 .product-purchase-amount-input {
-    width: 50px;
+    width: 3em;
+}
+
+.product-title {
+    font-weight: bold;
 }

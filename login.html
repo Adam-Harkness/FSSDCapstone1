@@ -62,14 +62,16 @@
             <fieldset class="site-content-bg-dark-contrast">
                 <legend>Login information:</legend>
 
-                <label for="login-id">Login ID:</label>
-                <input id="login-id" type="email" pattern="[^ @]*@[^ @]" placeholder="name@domain" required>
+                <form>
+                    <label for="login-id">Login ID:</label>
+                    <input id="login-id" type="text" pattern="\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b" placeholder="name@domain" required>
 
-                <label for="login-pwd">Password:</label>
-                <input id="login-pwd" type="text" placeholder="Enter your password" required>
+                    <label for="login-pwd">Password:</label>
+                    <input id="login-pwd" type="password" placeholder="Enter your password" required>
 
-                <br>
-                <button class="btn btn-outline-light" type="submit">Submit</button>
+                    <br>
+                    <button class="btn btn-outline-light" type="submit" formmethod="POST">Submit</button>
+                </form>
 
                 <p>Don't have an account with us yet? <a href="register.html">Click here</a> to register now!</p>
             </fieldset>
